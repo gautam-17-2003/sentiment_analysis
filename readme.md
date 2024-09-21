@@ -1,5 +1,24 @@
-# Sentiment Analysis
+# Sentiment Analysis using Python
 
-One of the applications of text mining is sentiment analysis. Most of the data is getting generated in textual format and in the past few years. Improvement is a continuous process and many product based companies leverage these text mining techniques to examine the sentiments of the customers to find about what they can improve in the product. This information also helps them to understand the trend and demand of the end user which results in Customer satisfaction.
+## Overview
 
-As text mining is a vast concept, the article is divided into two subchapters. The main focus of this article will be calculating two scores: sentiment polarity and subjectivity using python. The range of polarity is from -1 to 1(negative to positive) and will tell us if the text contains positive or negative feedback. Most companies prefer to stop their analysis here but in our second article, we will try to extend our analysis by creating some labels out of these scores.
+This project implements sentiment analysis using Python to evaluate customer feedback and opinions. The primary objective is to determine the sentiment polarity (positive, negative, or neutral) and subjectivity of textual data, which helps businesses understand customer satisfaction and make informed decisions.
+
+## Features
+
+- Calculate sentiment polarity on a scale of -1 (negative) to 1 (positive).
+- Measure subjectivity on a scale of 0 (objective) to 1 (subjective).
+- Utilize libraries such as NLTK and TextBlob for natural language processing.
+- Visualize sentiment trends and insights from the analysis.
+
+## Requirements
+
+Before running the project, ensure you have the following libraries installed:
+
+- Python 3.x
+- NLTK
+- TextBlob
+- Pandas (for data handling)
+- Matplotlib or Seaborn (for visualization)
+- wordcloud
+
